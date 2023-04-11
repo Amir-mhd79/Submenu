@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>submenu</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/setting.css">
+    <link rel="stylesheet" href="./icons/css/all.min.css">
+</head>
+<body>
+    <!--start making the header-->
+    <header class="flex w-full h-[80px] shadow-sm fixed top-0 left-0 z-[1000] bg-[#2b2b2b]">
+        <div class="flex 2xl:w-4/12 xl:w-4/12 lg:w-4/12 md:w-4/12 sm:w-4/12 w-4/12">
+            <div class="flex-grow flex justify-center items-center cursor-pointer">
+                <div class="menu group py-[7px] w-[25px] flex flex-col gap-[6px]">
+                    <span class="block w-full group-hover:h-[3px] bg-white h-[2px]"></span>
+                    <span class="block w-full group-hover:h-[3px] bg-white h-[2px]"></span>
+                    <span class="block w-full group-hover:h-[3px] bg-white h-[2px]"></span>
+                </div>
+                <!--start making submenu-->
+                <div class="submenu h-auto absolute top-[80px] hidden left-0 z-40 w-screen">
+                    <div class="bg-[#4b4b4b] flex flex-col flex-wrap justify-evenly 2xl:w-2/12 xl:w-2/12 lg:w-3/12 md:w-5/12 sm:w-6/12 w-6/12 shadow-lg">
+                        <div class="h-auto hover:bg-gray-100">
+                            <a class="block w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white font-semibold pl-[25px] py-1 hover:text-black" href="#">Best Offers</a>
+                        </div>
+                        <div class="find h-auto hover:bg-gray-100 flex flex-col items-center text-white hover:text-black">
+                            <a class="friend h-[32px] flex justify-between w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white  hover:text-black font-semibold pl-[25px] py-1" href="#">eCatalogue
+                                <div class="2xl:hidden xl:hidden lg:hidden md:block sm:block block">
+                                    <i class="fas fa-angle-down pr-4 cursor-pointer"></i>
+                                </div>
+                            </a>
+                            <div class="sub w-full h-auto bg-[#7b7b7b] 2xl:hidden xl:hidden lg:hidden hidden">
+                                <ul class="ml-[50px]">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="find h-auto hover:bg-gray-100 flex flex-col items-center text-white hover:text-black">
+                            <a class="friend h-[32px] flex justify-between w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white  hover:text-black font-semibold pl-[25px] py-1" href="#">Inspiration
+                                <div class="2xl:hidden xl:hidden lg:hidden md:block sm:block block">
+                                    <i class="fas fa-angle-down pr-4 cursor-pointer"></i>
+                                </div>
+                            </a>
+                            <div class="sub w-full h-auto bg-[#7b7b7b] 2xl:hidden xl:hidden lg:hidden hidden">
+                                <ul class="ml-[50px]">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="find h-auto hover:bg-[#EFFBFB] flex flex-col items-center text-white hover:text-black">
+                            <a class="friend h-[32px] flex justify-between w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white  hover:text-black font-semibold pl-[25px] ml-[5px] py-1 border-l-[5px] border-t-0 border-r-0 border-b-0 border-[#91E7E3] border-solid" href="#">Skin care
+                                <div class="2xl:hidden xl:hidden lg:hidden md:block sm:block block">
+                                    <i class="fas fa-angle-down pr-4 cursor-pointer"></i>
+                                </div>
+                            </a>
+                            <div class="sub w-full h-auto bg-[#7b7b7b] 2xl:hidden xl:hidden lg:hidden hidden">
+                                <ul class="ml-[50px]">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="find h-auto hover:bg-[#FBEFF4] flex flex-col items-center text-white hover:text-black">
+                            <a class="friend h-[32px] flex justify-between w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white  hover:text-black font-semibold pl-[25px] py-1 ml-[5px] border-l-[5px] border-t-0 border-r-0 border-b-0 border-[#E793B7] border-solid" href="#">Make-Up
+                                <div class="2xl:hidden xl:hidden lg:hidden md:block sm:block block">
+                                    <i class="fas fa-angle-down pr-4 cursor-pointer"></i>
+                                </div>
+                            </a>
+                            <div class="sub w-full h-auto bg-[#7b7b7b] 2xl:hidden xl:hidden lg:hidden hidden">
+                                <ul class="ml-[50px]">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="find h-auto hover:bg-[#F4F3F2] flex flex-col items-center text-white hover:text-black">
+                            <a class="friend h-[32px] flex justify-between w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white  hover:text-black font-semibold pl-[25px] py-1 ml-[5px] border-l-[5px] border-t-0 border-r-0 border-b-0 border-[#B6ADA5] border-solid" href="#">Fragrance
+                                <div class="2xl:hidden xl:hidden lg:hidden md:block sm:block block">
+                                    <i class="fas fa-angle-down pr-4 cursor-pointer"></i>
+                                </div>
+                            </a>
+                            <div class="sub w-full h-auto bg-[#7b7b7b] 2xl:hidden xl:hidden lg:hidden hidden">
+                                <ul class="ml-[50px]">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="find h-auto hover:bg-[#DFEAF3] flex flex-col items-center text-white hover:text-black">
+                            <a class="friend h-[32px] flex justify-between w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white  hover:text-black font-semibold pl-[25px] py-1 ml-[5px] border-l-[5px] border-t-0 border-r-0 border-b-0 border-[#2774AE] border-solid" href="#">Bath & Body
+                                <div class="2xl:hidden xl:hidden lg:hidden md:block sm:block block">
+                                    <i class="fas fa-angle-down pr-4 cursor-pointer"></i>
+                                </div>
+                            </a>
+                            <div class="sub w-full h-auto bg-[#7b7b7b] 2xl:hidden xl:hidden lg:hidden hidden">
+                                <ul class="ml-[50px]">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="find h-auto hover:bg-[#FDF6E8] flex flex-col items-center text-white hover:text-black">
+                            <a class="friend h-[32px] flex justify-between w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white  hover:text-black font-semibold pl-[25px] py-1 ml-[5px] border-l-[5px] border-t-0 border-r-0 border-b-0 border-[#F0C264] border-solid" href="#">Hair
+                                <div class="2xl:hidden xl:hidden lg:hidden md:block sm:block block">
+                                    <i class="fas fa-angle-down pr-4 cursor-pointer"></i>
+                                </div>
+                            </a>
+                            <div class="sub w-full h-auto bg-[#7b7b7b] 2xl:hidden xl:hidden lg:hidden hidden">
+                                <ul class="ml-[50px]">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="find h-auto hover:bg-[#FFECEA] flex flex-col items-center text-white hover:text-black">
+                            <a class="friend h-[32px] flex justify-between w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white  hover:text-black font-semibold pl-[25px] py-1 ml-[5px] border-l-[5px] border-t-0 border-r-0 border-b-0 border-[#FF8072] border-solid" href="#">Accessories
+                                <div class="2xl:hidden xl:hidden lg:hidden md:block sm:block block">
+                                    <i class="fas fa-angle-down pr-4 cursor-pointer"></i>
+                                </div>
+                            </a>
+                            <div class="sub w-full h-auto bg-[#7b7b7b] 2xl:hidden xl:hidden lg:hidden hidden">
+                                <ul class="ml-[50px]">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="find h-auto hover:bg-[#E8E7F7] flex flex-col items-center text-white hover:text-black">
+                            <a class="friend h-[32px] flex justify-between w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white  hover:text-black font-semibold pl-[25px] py-1 ml-[5px] border-l-[5px] border-t-0 border-r-0 border-b-0 border-[#685BC7] border-solid" href="#">Wallness
+                                <div class="2xl:hidden xl:hidden lg:hidden md:block sm:block block">
+                                    <i class="fas fa-angle-down pr-4 cursor-pointer"></i>
+                                </div>
+                            </a>
+                            <div class="sub w-full h-auto bg-[#7b7b7b] 2xl:hidden xl:hidden lg:hidden hidden">
+                                <ul class="ml-[50px]">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="find h-auto hover:bg-[#D9EBEC] flex flex-col items-center text-white hover:text-black">
+                            <a class="friend h-[32px] flex justify-between w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white  hover:text-black font-semibold pl-[25px] py-1 ml-[5px] border-l-[5px] border-t-0 border-r-0 border-b-0 border-[#007681] border-solid" href="#">Men
+                                <div class="2xl:hidden xl:hidden lg:hidden md:block sm:block block">
+                                    <i class="fas fa-angle-down pr-4 cursor-pointer"></i>
+                                </div>
+                            </a>
+                            <div class="sub w-full h-auto bg-[#7b7b7b] 2xl:hidden xl:hidden lg:hidden hidden">
+                                <ul class="ml-[50px]">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="find h-auto hover:bg-[#ECF8FC] flex flex-col items-center text-white hover:text-black">
+                            <a class="friend h-[32px] flex justify-between w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white  hover:text-black font-semibold pl-[25px] py-1 ml-[5px] border-l-[5px] border-t-0 border-r-0 border-b-0 border-[#7ED1EA] border-solid" href="#">Kids & Baby
+                                <div class="2xl:hidden xl:hidden lg:hidden md:block sm:block block">
+                                    <i class="fas fa-angle-down pr-4 cursor-pointer"></i>
+                                </div>
+                            </a>
+                            <div class="sub w-full h-auto bg-[#7b7b7b] 2xl:hidden xl:hidden lg:hidden hidden">
+                                <ul class="ml-[50px]">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="h-[32px] hover:bg-gray-100">
+                            <a class="block w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white hover:text-black font-semibold pl-[25px] py-1" href="#">Novelties</a>
+                        </div>
+                        <div class="max-h-[55px] hover:bg-gray-100">
+                            <a class="block w-full 2xl:text-lg xl:text-lg lg:text-lg md:text-sm sm:text-sm text-sm font-sans text-white hover:text-black font-semibold px-[25px] py-1 pb-2" href="#">Beauty Rewards Programme</a>
+                        </div>
+                    </div>
+                    <div class="2xl:bg-[#4b4b4b] xl:bg-[#4b4b4b] lg:bg-[#4b4b4b] md:bg-transparent sm:bg-transparent bg-transparent 2xl:shadow-lg xl:shadow-lg lg:shadow-lg shadow-none border-l-[2px] border-t-0 border-r-0 border-b-0 border-solid border-gray-200 2xl:w-10/12 xl:w-10/12 lg:w-9/12 md:w-7/12 sm:w-6/12 w-6/12"></div>
+                </div>
+                <!--end of making submenu-->
+            </div>
+            <div class="2xl:hidden xl:hidden lg:hidden md:flex sm:flex flex flex-grow items-center">
+                <i class="icon fas fa-search text-lg text-white cursor-pointer"></i>
+            </div>
+            <div class="flex-grow ps-[20px] items-center 2xl:flex xl:flex lg:flex md:hidden sm:hidden hidden text-xl">
+                <a class="text-black icon" href="#">
+                    <i class="far fa-user text-white"></i>
+                </a>
+            </div>
+            <div class="flex-grow items-center 2xl:flex xl:flex lg:flex md:hidden sm:hidden hidden">
+                <a class="text-white font-bold font-mono hover:text-slate-600" href="#">Our story</a>
+            </div>
+            <div class="flex-grow items-center 2xl:flex xl:flex lg:flex md:hidden sm:hidden hidden"><a class="text-white font-bold font-mono hover:text-slate-600" href="#">Join us</a></div> 
+        </div>
+        <div class="flex justify-center 2xl:w-4/12 xl:w-4/12 lg:w-4/12 md:w-4/12 sm:w-4/12 w-4/12">
+            <a class="flex" href="./main.html">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139 31" data-id="common" class="top-area-1to69g1 fill-white w-[135px]"><path d="M57.98 28.94l-1.595-4.904h-.98L53.81 28.94l-1.593-4.91h-1.23l2.206 6.62h.98l1.716-4.66 1.59 4.66h.98l2.2-6.62h-1.22zM1.334 26.857h33.35v.98H1.334v-.98zm41.318-24.89h2.207v14.59h-2.21V1.967zm10.544 14.59h2.207v-6.13h7.602V8.343h-7.61V3.93h8.46V1.966h-10.66zM8.324 16.8c4.66 0 8.46-3.8 8.46-8.46 0-4.534-3.8-6.62-6.62-6.62-5.518 0-5.886 5.396-5.886 5.396h.13s.98-3.923 4.78-3.923c3.07 0 5.4 2.084 5.4 5.027 0 3.43-2.82 6.25-6.25 6.25-3.31 0-6.372-2.45-6.372-6.87 0-3.44 1.84-6.26 5.027-7.48V0C2.947.61.003 4.17.003 8.33c-.122 4.66 3.68 8.46 8.338 8.46zm36.78 10.056c-1.225-.245-1.593-.49-1.593-.98s.37-.737 1.11-.737c.62 0 1.23.24 1.72.61l.617-.85c-.613-.49-1.47-.86-2.33-.86-1.35 0-2.207.74-2.207 1.96s.73 1.6 2.2 1.96c1.22.25 1.47.49 1.47.98s-.49.86-1.1.86c-.86 0-1.47-.37-2.09-.86l-.74.86c.735.74 1.716 1.11 2.696 1.11 1.35 0 2.33-.73 2.33-1.96 0-1.35-.738-1.84-2.086-2.08zm-9.317-10.3l-4.414-5.884c2.207-.61 3.678-2.2 3.678-4.29 0-2.69-2.2-4.53-5.39-4.53h-6.38v14.59h2.2v-5.4h3.55l4.05 5.4 2.7.126zm-10.3-7.48V3.93h4.047c2.084 0 3.31.86 3.31 2.453s-1.35 2.575-3.31 2.575h-4.047zm40.706 18.76h3.31v-1.102h-3.31V25.14h3.678v-1.103h-4.78v6.498h4.78v-.98H66.2zM91.817 1.844l-6.62 14.713h2.33l1.715-3.8h7.11l1.595 3.8h2.452L93.78 1.844h-1.964zm-1.838 8.95l2.69-6.252 2.69 6.26h-5.4zm18.14-5.026l4.66 6.866.24.368.24-.36 4.536-6.86v10.79h2.207v-14.6h-2.084l-4.904 7.356-4.906-7.356h-2.08v14.59h2.085zm0 21.088h30.89v.98h-30.89v-.98zm22.19-12.383v-4.29h7.6V8.098h-7.6v-4.17h8.58v-1.96h-10.78v14.59h10.79V14.47zM98.93 28.57l-3.557-4.534H94.27v6.498h1.226v-4.536l3.55 4.536h.98v-6.498h-1.1zM72.936 1.968h-2.084v14.59h10.054v-2.084h-7.97zm13.12 25.87h3.31v-1.103h-3.31V25.14h3.677v-1.103H84.95v6.498h4.905v-.98h-3.81zm-9.197-3.8H74.4v6.497h2.453c2.083 0 3.432-1.47 3.432-3.31.122-1.717-1.35-3.188-3.434-3.188zm0 5.516h-1.35V25.14h1.35c1.35 0 2.2.98 2.2 2.206.12 1.226-.86 2.207-2.21 2.207z"></path></svg>
+            </a>
+        </div>
+        <div class="flex 2xl:w-4/12 xl:w-4/12 lg:w-4/12 md:w-4/12 sm:w-4/12 w-4/12">
+            <div class="flex-grow"></div>
+            <div class="flex-grow flex justify-end items-center">
+                <div class="bg-[#F5F5F5] w-[220px] h-[38px] leading-[38px] text-center rounded-full 2xl:block xl:block lg:block md:hidden sm:hidden hidden">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search" class="h-full bg-transparent border-none outline-none">
+                </div>
+            </div>
+            <div class="flex-grow flex justify-center items-center">
+                <a class="text-white" href="#">
+                    <i class="fas fa-shopping-bag text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!--end of making the header-->
+    <script src="./JavaScript/main.js"></script>
+</body>
+</html>
